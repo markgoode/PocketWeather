@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PocketWeather</string>
+    <string name="current_weather">Get My Current Weather</string>
+    <string name="temp">Temperature</string>
+    <string name="hum">Humidity</string>
+    <string name="ws">Wind Speed</string>
+    <string name="precip">Precipitation</string>
+    <string name="aust">Austin</string>
+    <string name="currentweathbig">Current Weather</string>
+    <string name="bigAus">My Weather Forecast</string>
+    <string name="get_hourly">Get Hourly Forecast</string>
+    <string name="fortyeight">Next 48 Hour Average</string>
+    <string name="week_ahead">The Week Ahead</string>
+    <string name="pastweather">Past Weather Search</string>
+    <string name="next5">Next 5 Hours Temperature</string>
+    <string name="fortyavg">Next 48 Hours Average Temperature</string>
+    <string name="upcoming">Your Upcoming Week Forecast</string>
+    <string name="pastdate">Enter Date format: MM/DD/YYYY hh:mm AM/PM</string>
+    <string name="button">Send</string>
+    <string name="viewpast">View Past Weather</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.markgoode.myweatherapp1.WeekAhead">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/upcoming"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/day1"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/day2"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day1" />
+
+    <TextView
+        android:id="@+id/day3"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/day4"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day3" />
+
+    <TextView
+        android:id="@+id/day5"
+        android:layout_width="250dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day4" />
+
+    <TextView
+        android:id="@+id/day6"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day5" />
+
+    <TextView
+        android:id="@+id/day7"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day6" />
+</android.support.constraint.ConstraintLayout>
